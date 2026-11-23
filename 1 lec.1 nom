@@ -1,0 +1,6 @@
+n=int(input())
+total=0
+for i in range(n):
+    age=int(input())
+    total=total+age
+print(total/n)
